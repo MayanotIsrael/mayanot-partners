@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Your Summer 2027 sign-up email · Mayanot Israel</title>
+<meta name="description" content="Add your trip link, dates, logo and photos, and get your own Birthright Summer 2027 sign-up email, ready for Gmail or any email app.">
+<style>
+@font-face{font-family:Montserrat;src:url(fonts/mont.woff2) format("woff2");font-weight:100 900}
+:root{--navy:#1b2a5c;--orange:#f7941d;--sky:#29abe2;--indigo:#5b4fc9;--gold:#f5b800;--ink:#1d2333;--muted:#5b6478;--line:#e3e6ee;--bg:#f6f4ef;--card:#fff}
+*{box-sizing:border-box}
+input,textarea,button,.drop,.sp{scroll-margin-top:110px}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Montserrat,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5}
+.cbar{display:flex;height:6px}.cbar i{flex:1}
+header{background:#fff;border-bottom:1px solid var(--line)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+.top{display:flex;align-items:center;gap:14px;padding:12px 0}
+.top img{display:block}
+.top .sep{width:2px;height:30px;background:#d5dae4;border-radius:1px}
+.top .bh{margin-left:auto;align-self:flex-start;font-family:Arial,sans-serif;font-size:13px;color:var(--navy)}
+.hero{padding:22px 0 4px}
+h1{font-size:30px;line-height:1.15;margin:0 0 6px;color:var(--navy);letter-spacing:-.01em}
+h1 span{color:var(--orange)}
+.lede{color:var(--muted);margin:0;max-width:760px}
+h2{font-size:18px;margin:0 0 4px;color:var(--navy)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0 4px}
+.step{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;gap:12px;align-items:flex-start}
+.step b{flex:none;width:28px;height:28px;border-radius:50%;color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px}
+.step:nth-child(1) b{background:var(--orange)}.step:nth-child(2) b{background:var(--sky)}.step:nth-child(3) b{background:var(--indigo)}
+.step p{margin:0;font-size:15px}
+.step strong{display:block;color:var(--navy)}
+.main{display:grid;grid-template-columns:370px 1fr;gap:20px;align-items:start;margin:18px auto 28px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.sec{border-top:1px solid var(--line);margin-top:16px;padding-top:14px}
+.sec:first-of-type{border-top:0;margin-top:0;padding-top:0}
+.sec h2{display:flex;align-items:center;gap:8px}
+.sec h2 i{width:10px;height:10px;border-radius:50%;display:inline-block}
+label{display:block;font-weight:650;font-size:14px;color:var(--navy);margin:12px 0 4px}
+label small{font-weight:400;color:var(--muted)}
+label em{font-style:normal;color:#c2410c}
+input[type=text],input[type=url],textarea{width:100%;font:inherit;font-size:16px;padding:10px 12px;border:1px solid #cfd5e2;border-radius:10px;background:#fff;color:var(--ink);min-height:44px}
+textarea{resize:vertical;line-height:1.45}
+input:focus,textarea:focus{outline:2px solid var(--sky);outline-offset:1px;border-color:var(--sky)}
+input.bad{border-color:#e0782f;background:#fff8f2}
+.hint{font-size:13px;color:var(--muted);margin:4px 0 0}
+.warn{font-size:13px;color:#b4470d;margin:4px 0 0}
+.linkbtn{background:none;border:0;padding:0;color:#c2410c;font:inherit;font-size:13px;cursor:pointer;text-decoration:underline}
+.drop{display:flex;align-items:center;gap:12px;border:2px dashed #cfd5e2;border-radius:12px;padding:8px 10px;background:#fafbfd;cursor:pointer;min-height:60px}
+.drop:hover,.drop:focus{border-color:var(--sky);outline:none}
+.drop .pv{flex:none;width:78px;height:46px;display:flex;align-items:center;justify-content:center;background:#fff;border-radius:6px;border:1px solid var(--line);overflow:hidden}
+.drop .pv img{max-width:100%;max-height:100%;display:block}
+.drop.photo .pv img{width:100%;height:100%;object-fit:cover}
+.drop .t{font-size:14px;color:var(--muted);line-height:1.35;min-width:0;overflow-wrap:anywhere}
+.drop .t b{color:var(--navy)}
+.smalls{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.sp{border:2px dashed #cfd5e2;border-radius:10px;padding:4px;background:#fafbfd;cursor:pointer;text-align:center}
+.sp:hover,.sp:focus{border-color:var(--sky);outline:none}
+.sp img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;display:block}
+.sp span{display:block;font-size:12px;color:var(--muted);padding:3px 0 1px}
+.sp .linkbtn{font-size:12px}
+input[type=file]{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.layouts{display:grid;gap:8px}
+.lay{display:flex;gap:10px;align-items:flex-start;border:1px solid #cfd5e2;border-radius:12px;padding:10px 12px;cursor:pointer;margin:0;font-weight:500;color:var(--ink)}
+.lay input{margin-top:3px;width:18px;height:18px;accent-color:var(--orange);flex:none}
+.lay b{color:var(--navy)}
+.lay small{display:block;color:var(--muted);font-size:13px}
+.lay .rec{display:inline-block;font-size:11px;font-weight:700;color:#fff;background:var(--orange);border-radius:20px;padding:1px 8px;margin-left:4px;vertical-align:1px}
+.lay:has(input:checked){border-color:var(--orange);box-shadow:0 0 0 1px var(--orange) inset;background:#fffaf4}
+.privacy{font-size:13px;color:var(--muted);border-top:1px solid var(--line);margin-top:16px;padding-top:10px}
+.right{min-width:0}
+.send{margin-top:14px;padding:14px}
+.btns{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.actbar{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0 4px;margin-bottom:6px}
+.actbar .status{margin-top:4px;min-height:0}
+.send h3{margin:14px 0 6px;font-size:14px;color:var(--navy)}
+.which{display:grid;grid-template-columns:1fr 1fr;gap:6px 14px}
+.w{font-size:13px;line-height:1.4;color:var(--muted);background:#f7f8fb;border-radius:10px;padding:7px 10px}
+.w>b{display:flex;align-items:center;gap:6px;color:var(--navy);font-size:13.5px}
+.w>b i{width:10px;height:10px;border-radius:3px;flex:none}
+.w span b{color:var(--navy)}
+.own{font-size:13.5px;color:#b4470d;background:#fff8f2;border:1px solid #f6d3b8;border-radius:10px;padding:7px 10px;margin:6px 0 0}
+.dlgrp{display:inline-flex;align-items:center;gap:6px}
+.dlgrp .for{margin:0;font-weight:600;font-size:14px;color:var(--muted)}
+#dlFor{font:inherit;font-size:14px;font-weight:650;color:var(--navy);border:1px solid #cfd5e2;border-radius:10px;padding:8px 8px;min-height:44px;background:#fff}
+.send .note{font-size:12.5px;color:var(--muted);margin:8px 0 0}
+button.btn{font:inherit;font-size:15px;font-weight:700;border-radius:10px;padding:10px 16px;border:1px solid var(--navy);background:#fff;color:var(--navy);cursor:pointer;min-height:44px}
+button.btn.primary{background:var(--orange);border-color:var(--orange);color:#fff}
+button.btn:disabled{opacity:.45;cursor:not-allowed}
+.status{font-size:14px;min-height:20px;margin-top:8px;color:var(--muted)}
+.status.ok{color:#15803d;font-weight:600}.status.err{color:#b4470d}
+.pvhead{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-bottom:10px}
+.pvhead h2{margin:0}
+.seg{display:inline-flex;border:1px solid #cfd5e2;border-radius:10px;overflow:hidden;margin-left:auto;background:#fff}
+.seg button{font:inherit;font-size:14px;font-weight:650;border:0;background:#fff;color:var(--navy);padding:7px 14px;cursor:pointer;min-height:38px}
+.seg button[aria-pressed=true]{background:var(--navy);color:#fff}
+.subj{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:14px;margin-bottom:10px}
+.subj span{color:var(--muted);flex:none}
+.subj b{color:var(--navy);flex:1;min-width:0}
+.stage{background:#e4e8f0;border-radius:14px;padding:16px 8px;display:flex;justify-content:center;overflow:hidden}
+.frame{background:#eef1f6;transform-origin:top left;flex:none;border-radius:10px;overflow:hidden;box-shadow:0 6px 24px rgba(27,42,92,.12)}
+.frame.phone{border:10px solid #1d2333;border-radius:34px}
+.frame iframe{display:block;border:0;width:100%;background:#eef1f6}
+footer{color:var(--muted);font-size:14px;padding:4px 0 40px}
+footer b{color:var(--navy)}
+#copyBox{position:fixed;left:-10000px;top:0;width:600px;background:#fff}
+@media (max-width:980px){
+ .main{grid-template-columns:1fr}
+ .right{position:static}
+}
+@media (max-width:720px){
+ .steps{grid-template-columns:1fr}
+ .which{grid-template-columns:1fr}
+ .btns .btn{flex:1 1 auto}
+ h1{font-size:25px}
+ .seg{margin-left:0}
+}
+</style></head>
+<body>
+<div class="cbar"><i style="background:#f7941d"></i><i style="background:#29abe2"></i><i style="background:#5b4fc9"></i><i style="background:#f5b800"></i></div>
+<header><div class="wrap top">
+ <img src="img/logo-bri.png" alt="Birthright Israel" height="40"><div class="sep"></div><img src="img/logo-mayanot.png" alt="Mayanot Israel" height="26"><span class="bh" dir="rtl">ב״ה</span>
+</div></header>
+<div class="wrap">
+ <section class="hero">
+  <h1>Your <span>Summer 2027</span> sign-up email</h1>
+  <p class="lede">Make your own Birthright registration email: add your trip link, dates, logo and photos, and watch it update as you type. Then copy it into Gmail, or download it for Mailchimp, Constant Contact, Outlook or Apple Mail.</p>
+  <noscript><p class="lede"><b>This page builds your email with its interactive parts, which are turned off here.</b></p></noscript>
+  <div class="steps">
+   <div class="step"><b>1</b><p><strong>Fill in</strong>Your trip link is the only must. Anything you leave empty stays out of the email.</p></div>
+   <div class="step"><b>2</b><p><strong>Check the preview</strong>See it on a phone and on a computer, and pick the layout.</p></div>
+   <div class="step"><b>3</b><p><strong>Send it</strong>Use the button for your email app: Gmail, Mailchimp, Constant Contact, Outlook or Apple Mail.</p></div>
+  </div>
+ </section>
+
+ <div class="main">
+  <div class="panel" id="f">
+   <div class="sec">
+    <h2><i style="background:var(--orange)"></i>Your trip</h2>
+    <label for="link">Trip sign-up link <em>*</em></label>
+    <input type="url" id="link" maxlength="400" inputmode="url" placeholder="e.g. mayanotisrael.com/register/your-bus" autocomplete="off">
+    <p class="hint" id="linkHint">Your own Mayanot trip link, so students land on your bus. It goes on the button and under it.</p>
+    <label for="dates">Trip dates <small>(optional)</small></label>
+    <input type="text" id="dates" maxlength="60" placeholder="e.g. May 24 – June 3, 2027">
+    <p class="hint">Shows as “Our trip: …” under the FREE / 10 DAYS / AGES tiles.</p>
+   </div>
+   <div class="sec">
+    <h2><i style="background:var(--sky)"></i>About you</h2>
+    <label for="name">Your name</label>
+    <input type="text" id="name" maxlength="60" placeholder="e.g. Rabbi Mendy Cohen">
+    <label for="house">Chabad house</label>
+    <input type="text" id="house" maxlength="70" placeholder="e.g. Chabad at UF">
+    <p class="hint">Your name and Chabad house sign the email.</p>
+    <label for="campus">Campus <small>(as students say it)</small></label>
+    <input type="text" id="campus" maxlength="50" placeholder="e.g. UF">
+    <p class="hint">“…travel with friends from <b id="campusEcho">your campus</b> in a group that becomes family.”</p>
+   </div>
+   <div class="sec">
+    <h2><i style="background:var(--indigo)"></i>Logo &amp; photos</h2>
+    <label>Your logo <small>(PNG, JPG or SVG)</small></label>
+    <div class="drop" id="logoDrop" tabindex="0" role="button" aria-label="Upload your logo">
+     <div class="pv" id="logoPv"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8c97ad" stroke-width="2" stroke-linecap="round"><path d="M12 16V4M7 9l5-5 5 5M4 20h16"/></svg></div>
+     <div class="t" id="logoText"><b>Upload your logo</b><br>Sits next to the Mayanot logo. A transparent PNG looks best.</div>
+    </div>
+    <input type="file" id="logoFile" accept="image/png,image/jpeg,image/webp,image/svg+xml,.svg,.png,.jpg,.jpeg,.webp">
+    <p class="hint" id="logoAct" hidden><button type="button" class="linkbtn" id="logoRm">Remove logo</button></p>
+    <label>Big photo <small>(optional)</small></label>
+    <div class="drop photo" id="heroDrop" tabindex="0" role="button" aria-label="Replace the big photo">
+     <div class="pv"><img id="heroPv" alt=""></div>
+     <div class="t" id="heroText"><b>Use your own photo</b><br>Or keep ours. Cropped to a wide shape.</div>
+    </div>
+    <input type="file" id="heroFile" accept="image/*">
+    <p class="hint" id="heroAct" hidden><button type="button" class="linkbtn" id="heroRm">Back to our photo</button></p>
+    <label>Three small photos <small>(tap one to replace it)</small></label>
+    <div class="smalls">
+     <div><div class="sp" id="p1Drop" tabindex="0" role="button" aria-label="Replace small photo 1"><img id="p1Pv" alt=""><span>Photo 1</span></div><input type="file" id="p1File" accept="image/*"><p class="hint" id="p1Act" hidden><button type="button" class="linkbtn" id="p1Rm">Reset</button></p></div>
+     <div><div class="sp" id="p2Drop" tabindex="0" role="button" aria-label="Replace small photo 2"><img id="p2Pv" alt=""><span>Photo 2</span></div><input type="file" id="p2File" accept="image/*"><p class="hint" id="p2Act" hidden><button type="button" class="linkbtn" id="p2Rm">Reset</button></p></div>
+     <div><div class="sp" id="p3Drop" tabindex="0" role="button" aria-label="Replace small photo 3"><img id="p3Pv" alt=""><span>Photo 3</span></div><input type="file" id="p3File" accept="image/*"><p class="hint" id="p3Act" hidden><button type="button" class="linkbtn" id="p3Rm">Reset</button></p></div>
+    </div>
+    <p class="hint">Photos are cropped to fit and made email-sized.</p>
+   </div>
+   <div class="sec">
+    <h2><i style="background:var(--gold)"></i>Your words</h2>
+    <label for="greeting">Greeting</label>
+    <input type="text" id="greeting" maxlength="60">
+    <label for="intro">Opening paragraph</label>
+    <textarea id="intro" rows="4" maxlength="800"></textarea>
+    <p class="hint"><button type="button" class="linkbtn" id="introReset">Back to the original wording</button></p>
+    <label for="extra">Extra note <small>(optional)</small></label>
+    <textarea id="extra" rows="3" maxlength="800" placeholder="e.g. Join us for an info night this Thursday at 8 PM, pizza on us!"></textarea>
+    <p class="hint">Shows in a highlighted box before the sign-off. Leave a blank line for a new paragraph.</p>
+    <label for="signoff">Sign-off line</label>
+    <input type="text" id="signoff" maxlength="80">
+   </div>
+   <div class="sec">
+    <h2><i style="background:var(--orange)"></i>Layout</h2>
+    <div class="layouts" role="radiogroup" aria-label="Layout">
+     <label class="lay"><input type="radio" name="mode" value="both" checked><span><b>Both</b><span class="rec">Recommended</span><small>One email that adapts to any screen: a phone or a computer.</small></span></label>
+     <label class="lay"><input type="radio" name="mode" value="mobile"><span><b>Mobile</b><small>A narrow single-column email (375 px), made for phones.</small></span></label>
+     <label class="lay"><input type="radio" name="mode" value="desktop"><span><b>Desktop</b><small>A fixed 600 px email; phones show it shrunk to fit.</small></span></label>
+    </div>
+   </div>
+   <p class="privacy">Everything is made right here in your browser. Your logo, photos and details are never uploaded or saved, so if you close this page, fill it in again.</p>
+  </div>
+
+  <div class="right">
+   <div class="actbar">
+    <div class="btns"><button class="btn primary" id="copy" type="button">Copy for Gmail</button><span class="dlgrp"><button class="btn" id="dl" type="button">Download HTML</button><label class="for" for="dlFor">for</label><select id="dlFor" aria-label="Download for"><option value="mc">Mailchimp</option><option value="cc">Constant Contact</option><option value="mail">Outlook / Apple Mail</option></select></span><a class="linkbtn" href="#which">Which button do I use?</a></div>
+    <p class="own" id="ownNote" hidden></p>
+    <div class="status" id="status" role="status" aria-live="polite"></div>
+   </div>
+   <div class="pvhead">
+    <h2>Preview</h2>
+    <div class="seg" role="group" aria-label="Preview size"><button type="button" id="vPhone" aria-pressed="true">📱 Phone</button><button type="button" id="vDesk" aria-pressed="false">🖥️ Computer</button></div>
+   </div>
+   <div class="subj"><span>Subject:</span><b id="subject"></b><button class="linkbtn" id="copySubj" type="button">Copy</button></div>
+   <div class="stage" id="stage"><div class="frame phone" id="frame"><iframe id="pv" title="Email preview" scrolling="no"></iframe></div></div>
+   <div class="send panel" id="which">
+    <h3 style="margin-top:0">Which button do I use?</h3>
+    <div class="which">
+     <div class="w"><b><i style="background:#ea4335"></i>Gmail</b><span><b>Copy for Gmail</b>, then in Gmail click Compose and paste (Ctrl+V, or Cmd+V on a Mac). Best on a computer.</span></div>
+     <div class="w"><b><i style="background:#ffe01b"></i>Mailchimp</b><span><b>Download HTML for Mailchimp</b>. In Mailchimp: Campaigns › Create › Create email › Use HTML to code my own › <b>Paste in Code</b>. Open the file in Notepad or TextEdit, copy all, paste, Save. Mailchimp allows its own code on the <b>Standard plan or higher</b>.</span></div>
+     <div class="w"><b><i style="background:#1856ed"></i>Constant Contact</b><span><b>Download HTML for Constant Contact</b>. Create a new email and choose the <b>Custom code</b> option, delete the sample code, then open the file in Notepad or TextEdit, copy all and paste it in.</span></div>
+     <div class="w"><b><i style="background:#0f6cbd"></i>Outlook / Apple Mail</b><span><b>Download HTML for Outlook / Apple Mail</b>, open it in your browser, select all, copy, and paste into a new message.</span></div>
+    </div>
+    <p class="note">Our photos and logos are online, so they show up by themselves in every app: nothing to upload. Paste the subject line from above the preview, and send yourself a test first.</p>
+   </div>
+  </div>
+ </div>
+ <footer>Questions? Mayanot Israel · WhatsApp <b>888-894-0248</b> · <b>info@mayanotisrael.com</b> · <b>mayanotisrael.com</b></footer>
+</div>
+<div id="copyBox" aria-hidden="true"></div>
+<script>
+"use strict";
+const ASSETS = {"img": {"bri": "https://mayanotisrael.github.io/mayanot-partners/email/img/logo-bri.png", "may": "https://mayanotisrael.github.io/mayanot-partners/email/img/logo-mayanot.png", "hero": "https://mayanotisrael.github.io/mayanot-partners/email/img/hero.jpg", "p1": "https://mayanotisrael.github.io/mayanot-partners/email/img/sunrise.jpg", "p2": "https://mayanotisrael.github.io/mayanot-partners/email/img/kotel.jpg", "p3": "https://mayanotisrael.github.io/mayanot-partners/email/img/telaviv.jpg", "logo": null}, "font": "https://mayanotisrael.github.io/mayanot-partners/email/fonts/mont.woff2"};
+// The Summer 2027 sign-up email as one function. Wording lives in TEXT (Levi's text, word for word);
+// the markup follows outputs/email-summer2027/email.html. Change either here, then run build.py.
+const TEXT = {
+  subject: "Birthright Israel Summer 2027 registration is OPEN! ✈️",
+  preheader: "Big news: registration for Birthright Israel Summer 2027 with Mayanot is officially open!",
+  kicker: "Birthright Israel · Summer 2027",
+  greeting: "Hi there,",
+  intro: "Big news: registration for Birthright Israel Summer 2027 with Mayanot is officially open, and we don't want you to miss the best 10 days of your life!",
+  tiles: [["FREE", "#fff3e3", "#f7941d", "#f7941d"], ["10 DAYS", "#e6f5fc", "#29abe2", "#1b8fd6"], ["AGES 18–26", "#eeecfb", "#5b4fc9", "#5b4fc9"]],
+  tripLabel: "Our trip:",
+  expHead: "10 days in Israel, free! Does it get better?",
+  exp: campus => `Hike Masada at sunrise, float in the Dead Sea, stand at the Kotel (Western Wall), explore Tel Aviv, and travel with friends from ${campus} in a group that becomes family.`,
+  campusFallback: "your campus",
+  photoAlt: ["Sunrise hike", "At the Kotel", "Tel Aviv"],
+  heroAlt: "Birthright participants cheering on a desert lookout in Israel",
+  ctaLead: "Sign up for our trip here:",
+  cta: "Sign up for our trip",
+  thingsHead: "A few things to know:",
+  things: [
+    ["⏱️", "#29abe2", "About 8–10 minutes", "The application takes only about 8–10 minutes!"],
+    ["💳", "#f7941d", "$360 deposit", "There's a $360 deposit. You can't be considered for a trip without it, so submit it early! It's fully refundable if you don't accept a trip offer or cancel before the deadline. There's also a $25 non-refundable processing fee."],
+    ["🛂", "#5b4fc9", "Passport", "Have your passport handy so you can get it all done today!"],
+  ],
+  closing: ["Use the link above so you're placed on our bus with your friends.", "Any questions? Just reply, I'm happy to help."],
+  signoff: "Hope to see you on the bus! 🚌",
+};
+const COLORS = ["#f7941d", "#29abe2", "#5b4fc9", "#f5b800"];
+
+const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const paras = s => String(s || "").trim().split(/\n\s*\n/).map(p => esc(p.trim()).replace(/\n/g, "<br>")).filter(Boolean);
+function normLink(s) { s = String(s || "").trim(); if (!s) return ""; return /^[a-z][\w+.-]*:/i.test(s) ? s : "https://" + s; }
+const showLink = u => u.replace(/^https?:\/\//i, "").replace(/\/$/, "");
+
+// d: { greeting, intro, extra, signoff, name, house, campus, link, dates,
+//      img: { bri, may, hero, p1, p2, p3, logo }, logo: {w, h} | null }
+// mode: "both" (responsive), "mobile" (375 px), "desktop" (fixed 600 px)
+// opts.fragment: only the body markup, every style inline (for "Copy for Gmail")
+// opts.previewCss: extra css for the preview only (the page's own font)
+function buildEmail(d, mode, opts = {}) {
+  const M = mode === "mobile", B = mode === "both", W = M ? 375 : 600;
+  const F = "font-family:'Montserrat',Arial,Helvetica,sans-serif;";
+  const px = M ? 22 : 40, tpx = M ? 16 : 34, tpad = M ? 3 : 6;
+  const bodyFs = M ? "font-size:16px;line-height:25px;" : "font-size:16px;line-height:26px;";
+  const hasLogo = !!(d.img.logo && d.logo);
+  // logos: Birthright always the biggest
+  const bri = M ? (hasLogo ? [150, 40] : [170, 46]) : [220, 59];
+  const may = M ? (hasLogo ? [84, 23] : [112, 31]) : (hasLogo ? [120, 33] : [140, 39]);
+  let lg = null;
+  if (hasLogo) { const bw = M ? 76 : 110, bh = M ? 40 : 52, k = Math.min(bw / d.logo.w, bh / d.logo.h); lg = [Math.round(d.logo.w * k), Math.round(d.logo.h * k)]; }
+  const fluidImg = (w, extra = "") => (M || B) ? `width:100%;max-width:${w}px;height:auto;${extra}` : `width:${w}px;height:auto;${extra}`;
+  const cls = c => B ? ` class="${c}"` : "";
+  const campus = (d.campus || "").trim() || TEXT.campusFallback;
+  const link = normLink(d.link), href = link || "#";
+  const bar = `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>${COLORS.map(c => `<td width="25%" height="6" style="background:${c};font-size:0;line-height:0;height:6px;">&nbsp;</td>`).join("")}</tr></table>`;
+  const P = (html, last) => `<p style="margin:0 0 ${last ? 0 : 14}px 0;">${html}</p>`;
+  const rows = [];
+  rows.push(`<tr><td>${bar}</td></tr>`);
+  rows.push(`<tr><td align="right"${cls("px")} style="padding:10px ${M ? 18 : 26}px 0 ${M ? 18 : 26}px;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:15px;color:#1b2a5c;" dir="rtl">ב״ה</td></tr>`);
+  // logos: fixed sizes for desktop, fluid (shrinking to fit) for both/mobile, so they also fit when pasted
+  const fix = mode === "desktop";
+  const logoImg = (src, wh, alt, c) => `<img${cls(c)} src="${src}" width="${wh[0]}" alt="${alt}" style="display:block;border:0;${fix ? `width:${wh[0]}px;height:${wh[1]}px;` : `width:100%;max-width:${wh[0]}px;height:auto;`}">`;
+  const cells = hasLogo
+    ? [["left", 44, "", logoImg(d.img.bri, bri, "Birthright Israel")], ["right", 28, "", logoImg(d.img.may, may, "Mayanot")],
+       ["right", 28, `border-left:1px solid #dde2ec;padding-left:${M ? 8 : 12}px;`, logoImg(d.img.logo, lg, esc(d.house || "Chabad house logo"))]]
+    : [["left", 55, "", logoImg(d.img.bri, bri, "Birthright Israel")], ["right", 45, "", logoImg(d.img.may, may, "Mayanot", "may2")]];
+  rows.push(`<tr><td${cls("px hdr")} style="padding:4px ${M ? 18 : 32}px 18px ${M ? 18 : 32}px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>${cells.map(([al, w, st, im], i) =>
+      `<td align="${al}" valign="middle" width="${w}%" style="${i ? `padding-left:${M ? 8 : 12}px;` : ""}${st}">${al === "right" ? `<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="right" style="width:100%;"><tr><td align="right">${im}</td></tr></table>` : im}</td>`).join("")}
+    </tr></table></td></tr>`);
+  rows.push(`<tr><td><img${cls("pic")} src="${d.img.hero}" width="${W}" alt="${esc(TEXT.heroAlt)}" style="display:block;border:0;${fluidImg(W)}"></td></tr>`);
+  rows.push(`<tr><td${cls("px")} style="padding:28px ${px}px 0 ${px}px;">
+    <div style="${F}font-size:12px;line-height:16px;letter-spacing:3px;font-weight:700;color:#8a93a6;text-transform:uppercase;">${esc(TEXT.kicker)}</div>
+    <div${cls("h1")} style="${F}font-size:${M ? "27px;line-height:33px" : "32px;line-height:39px"};font-weight:800;color:#1b2a5c;padding-top:6px;">Registration is <span style="color:#29abe2;">OPEN!</span></div></td></tr>`);
+  const intro = [];
+  if ((d.greeting || "").trim()) intro.push(esc(d.greeting.trim()));
+  intro.push(...paras(d.intro));
+  if (intro.length) rows.push(`<tr><td${cls("px body")} style="padding:20px ${px}px 0 ${px}px;${F}${bodyFs}color:#33405e;">${intro.map((h, i) => P(h, i === intro.length - 1)).join("")}</td></tr>`);
+  // tiles
+  const tfs = M ? "font-size:15px;line-height:20px;letter-spacing:0;" : B ? "font-size:20px;line-height:24px;" : "font-size:22px;line-height:26px;white-space:nowrap;";
+  rows.push(`<tr><td${cls("px tiles")} style="padding:24px ${tpx}px 0 ${tpx}px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>${TEXT.tiles.map(([t, bg, line, fg]) =>
+    `<td width="33%" valign="top" style="padding:0 ${tpad}px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="background:${bg};border-radius:0 0 12px 12px;padding:16px 4px;border-top:4px solid ${line};">
+      <div${cls("tile-num")} style="${F}${tfs}font-weight:800;color:${fg};">${esc(t)}</div></td></tr></table></td>`).join("")}</tr></table></td></tr>`);
+  if ((d.dates || "").trim()) rows.push(`<tr><td align="center"${cls("px")} style="padding:16px ${px}px 0 ${px}px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="background:#fff8e1;border:1px solid #f5d77a;border-radius:30px;padding:10px 20px;${F}font-size:${M ? 15 : 16}px;line-height:22px;color:#1b2a5c;">
+      ✈️ <strong>${esc(TEXT.tripLabel)}</strong> ${esc(d.dates.trim())}</td></tr></table></td></tr>`);
+  rows.push(`<tr><td${cls("px body")} style="padding:26px ${px}px 0 ${px}px;${F}${bodyFs}color:#33405e;">
+    <p style="margin:0;"><strong style="color:#1b2a5c;font-size:18px;">${esc(TEXT.expHead)}</strong><br>${esc(TEXT.exp(campus))}</p></td></tr>`);
+  rows.push(`<tr><td${cls("px tiles")} style="padding:20px ${tpx}px 0 ${tpx}px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>${["p1", "p2", "p3"].map((k, i) => {
+    const w = M ? 107 : 165;
+    return `<td width="33%" valign="top" style="padding:0 ${tpad}px;"><img${cls("pic")} src="${d.img[k]}" width="${w}" alt="${esc(TEXT.photoAlt[i])}" style="display:block;border:0;${fluidImg(w, "border-radius:10px;")}"></td>`;
+  }).join("")}</tr></table></td></tr>`);
+  // button: bulletproof, plus the link itself under it
+  const btnPad = M ? "17px 30px" : "18px 44px", btnFs = M ? 18 : 19;
+  rows.push(`<tr><td align="center"${cls("px")} style="padding:32px ${px}px 0 ${px}px;">
+    <div style="${F}font-size:15px;line-height:22px;color:#33405e;padding-bottom:14px;">${esc(TEXT.ctaLead)}</div>
+    ${opts.fragment ? "" : `<!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="${esc(href)}" style="height:58px;v-text-anchor:middle;width:320px;" arcsize="50%" stroke="f" fillcolor="#f7941d"><w:anchorlock/><center style="color:#ffffff;font-family:Arial,sans-serif;font-size:19px;font-weight:bold;">${esc(TEXT.cta)}</center></v:roundrect><![endif]-->
+    <!--[if !mso]><!-- -->`}<table role="presentation" cellpadding="0" cellspacing="0" border="0"${cls("btn")}><tr><td align="center" style="border-radius:40px;background:#f7941d;">
+      <a href="${esc(href)}" target="_blank" style="display:inline-block;padding:${btnPad};${F}font-size:${btnFs}px;line-height:22px;font-weight:800;color:#ffffff;text-decoration:none;border-radius:40px;">${esc(TEXT.cta)} &rarr;</a></td></tr></table>${opts.fragment ? "" : "<!--<![endif]-->"}
+    <div style="${F}font-size:13px;line-height:19px;padding-top:12px;word-break:break-all;"><a href="${esc(href)}" target="_blank" style="color:#1b8fd6;text-decoration:underline;">${link ? esc(showLink(link)) : "[your trip link]"}</a></div></td></tr>`);
+  // things to know
+  rows.push(`<tr><td${cls("px")} style="padding:36px ${px}px 0 ${px}px;">
+    <div style="${F}font-size:19px;line-height:24px;font-weight:800;color:#1b2a5c;padding-bottom:14px;">${esc(TEXT.thingsHead)}</div>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f4f6fa;border-radius:12px;">${TEXT.things.map(([ic, c, t, b], i, a) => {
+      const top = i ? 12 : 16, bot = i === a.length - 1 ? 16 : 12;
+      return (i ? `<tr><td colspan="2" style="padding:0 16px;"><div style="border-top:1px solid #e1e5ee;font-size:0;line-height:0;">&nbsp;</div></td></tr>` : "") +
+        `<tr><td width="${M ? 54 : 62}" valign="top" style="padding:${top}px 0 ${bot}px ${M ? 12 : 16}px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="${M ? 38 : 44}" height="${M ? 38 : 44}" align="center" valign="middle" style="background:${c};border-radius:22px;font-size:${M ? 18 : 21}px;line-height:${M ? 38 : 44}px;">${ic}</td></tr></table></td>
+        <td valign="top"${cls("body")} style="padding:${top}px ${M ? 12 : 16}px ${bot}px 6px;${F}font-size:15px;line-height:23px;color:#33405e;"><strong style="color:#1b2a5c;">${esc(t)}</strong><br>${esc(b)}</td></tr>`;
+    }).join("")}</table></td></tr>`);
+  const extra = paras(d.extra);
+  if (extra.length) rows.push(`<tr><td${cls("px")} style="padding:22px ${px}px 0 ${px}px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+    <td style="background:#fff8e6;border-left:4px solid #f5b800;border-radius:0 12px 12px 0;padding:16px 18px;${F}font-size:15px;line-height:23px;color:#33405e;">${extra.map((h, i) => P(h, i === extra.length - 1)).join("")}</td></tr></table></td></tr>`);
+  const close = TEXT.closing.map(esc).map(h => P(h));
+  const so = (d.signoff || "").trim(), who = [d.name, d.house].map(s => (s || "").trim()).filter(Boolean).map(esc);
+  if (so) close.push(`<p style="margin:0 0 ${who.length ? 22 : 0}px 0;font-weight:700;color:#1b2a5c;">${esc(so).replace(/\n/g, "<br>")}</p>`);
+  if (who.length) close.push(`<p style="margin:0;">${who.join("<br>")}</p>`);
+  if (!so && !who.length) close[close.length - 1] = close[close.length - 1].replace("margin:0 0 14px 0", "margin:0");
+  rows.push(`<tr><td${cls("px body")} style="padding:26px ${px}px 0 ${px}px;${F}${bodyFs}color:#33405e;">${close.join("")}</td></tr>`);
+  if (opts.unsub) rows.push(`<tr><td align="center" style="padding:26px ${px}px 0 ${px}px;${F}font-size:12px;line-height:18px;color:#8a93a6;">${opts.unsub}</td></tr>`);
+  rows.push(`<tr><td style="padding:34px 0 0 0;">${bar}</td></tr>`);
+
+  const wrapStyle = mode === "desktop" ? `width:600px;max-width:600px;` : `width:100%;max-width:${W}px;`;
+  const inner = `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#eef1f6;"><tr><td align="center" style="padding:${M ? "16px 8px" : "24px 10px"};">
+${opts.fragment ? "" : `<!--[if mso]><table role="presentation" width="${W}" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->`}
+<table role="presentation"${cls("wrap")} ${mode === "desktop" ? 'width="600"' : 'width="100%"'} cellpadding="0" cellspacing="0" border="0" style="${wrapStyle}background:#ffffff;border-radius:14px;overflow:hidden;border-collapse:collapse;">
+${rows.join("\n")}
+</table>
+${opts.fragment ? "" : "<!--[if mso]></td></tr></table><![endif]-->"}
+</td></tr></table>`;
+  if (opts.fragment) return inner;
+  const media = B ? `
+  @media screen and (max-width:620px) {
+    .px { padding-left:22px !important; padding-right:22px !important; }
+    .hdr { padding-left:18px !important; padding-right:18px !important; }
+    .h1 { font-size:27px !important; line-height:33px !important; }
+    .body { font-size:16px !important; line-height:25px !important; }
+    .tile-num { font-size:15px !important; line-height:20px !important; letter-spacing:0 !important; white-space:nowrap !important; }
+    .may { max-width:112px !important; }
+    .may2 { max-width:84px !important; }
+    .tiles { padding-left:16px !important; padding-right:16px !important; }
+    .tiles td { padding-left:3px !important; padding-right:3px !important; }
+    .btn a { font-size:18px !important; padding:17px 30px !important; }
+  }` : "";
+  return `<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="x-apple-disable-message-reformatting">
+<title>${esc(TEXT.subject)}</title>
+<!--[if mso]><noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript><![endif]-->
+${opts.previewCss ? "" : `<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">`}
+<style>${opts.previewCss || ""}
+  body { margin:0; padding:0; background:#eef1f6; }
+  table { border-collapse:collapse; }
+  img { border:0; display:block; outline:none; text-decoration:none; }
+  a { color:#1b8fd6; }${media}
+</style>
+</head>
+<body style="margin:0;padding:0;background:#eef1f6;">${opts.bodyStart || ""}
+<div style="display:none;max-height:0;overflow:hidden;mso-hide:all;">${opts.preheader || esc(TEXT.preheader)}&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;</div>
+${inner}
+</body>
+</html>`;
+}
+
+// the same email as plain text (the clipboard's text version)
+function plainEmail(d) {
+  const link = normLink(d.link), campus = (d.campus || "").trim() || TEXT.campusFallback, out = [];
+  if ((d.greeting || "").trim()) out.push(d.greeting.trim());
+  if ((d.intro || "").trim()) out.push(d.intro.trim());
+  if ((d.dates || "").trim()) out.push(`${TEXT.tripLabel} ${d.dates.trim()}`);
+  out.push(`${TEXT.expHead}\n${TEXT.exp(campus)}`, `${TEXT.ctaLead} ${link}`, TEXT.thingsHead + "\n" + TEXT.things.map(t => "• " + t[3]).join("\n"));
+  if ((d.extra || "").trim()) out.push(d.extra.trim());
+  out.push(...TEXT.closing);
+  if ((d.signoff || "").trim()) out.push(d.signoff.trim());
+  const who = [d.name, d.house].map(s => (s || "").trim()).filter(Boolean); if (who.length) out.push(who.join("\n"));
+  return out.join("\n\n");
+}
+
+// Shluchim email builder, hosted on GitHub Pages (mayanotisrael.github.io/mayanot-partners/email/): reads the form, previews the email (template.js),
+// copies it for Gmail, downloads the HTML for Mailchimp, Constant Contact or Outlook / Apple Mail. Our pictures are linked from img/ by absolute URL.
+
+const $ = id => document.getElementById(id);
+const loadImg = src => new Promise((ok, no) => { const i = new Image(); i.onload = () => ok(i); i.onerror = no; i.src = src; });
+const readURL = f => new Promise((ok, no) => { const r = new FileReader(); r.onload = () => ok(r.result); r.onerror = no; r.readAsDataURL(f); });
+const bytes = d => { const s = atob(d.slice(d.indexOf(",") + 1)); const u = new Uint8Array(s.length); for (let i = 0; i < s.length; i++) u[i] = s.charCodeAt(i); return u; };
+const extOf = d => /^data:image\/png/.test(d) ? "png" : "jpg";
+
+const S = { img: { ...ASSETS.img }, logo: null, user: {}, mode: "both", view: "phone" };
+const FIELDS = ["link", "dates", "name", "house", "campus", "greeting", "intro", "extra", "signoff"];
+let VIEW_CSS = `@font-face{font-family:'Montserrat';src:url(${ASSETS.font}) format('woff2');font-weight:100 900;}`;
+
+function data() {
+  const d = {}; FIELDS.forEach(k => d[k] = $(k).value);
+  d.img = { ...S.img }; d.logo = S.logo; return d;
+}
+const linkOk = () => { const v = $("link").value.trim(); return /^(https?:\/\/)?[^\s.\/]+\.[^\s]{2,}$/i.test(v); };
+function status(msg, kind) { const e = $("status"); e.textContent = msg; e.className = "status" + (kind ? " " + kind : ""); }
+
+// ---------- preview ----------
+let timer, renderN = 0;
+function schedule() { clearTimeout(timer); timer = setTimeout(render, 180); }
+function render() {
+  const d = data(), f = $("pv"), n = ++renderN;
+  $("campusEcho").textContent = d.campus.trim() || TEXT.campusFallback;
+  const v = $("link").value.trim(), ok = linkOk();
+  $("link").classList.toggle("bad", !!v && !ok);
+  $("linkHint").className = v && !ok ? "warn" : "hint";
+  $("linkHint").textContent = !v ? "Your own Mayanot trip link, so students land on your bus. It goes on the button and under it."
+    : !ok ? "That doesn’t look like a web link yet, e.g. mayanotisrael.com/register/your-bus" : "Button and link go to: " + normLink(v);
+  ["copy", "dl"].forEach(id => $(id).disabled = !ok);
+  if (!ok && !$("status").textContent.startsWith("Add")) status("");
+  f.onload = () => { if (n === renderN) fit(); };
+  f.srcdoc = buildEmail(d, S.mode, { previewCss: VIEW_CSS });
+  updateOwn();
+}
+function fit() {
+  const f = $("pv"), fr = $("frame"), st = $("stage"), phone = S.view === "phone";
+  const w = phone ? 375 : 700; f.style.width = w + "px"; f.style.height = "50px";
+  let h = 900; try { const doc = f.contentDocument; h = Math.max(doc.documentElement.scrollHeight, doc.body.scrollHeight); } catch (e) { f.setAttribute("scrolling", "yes"); }
+  f.style.height = h + "px";
+  const outer = w + (phone ? 20 : 0), avail = st.clientWidth - 16, k = Math.min(1, avail / outer);
+  fr.className = "frame" + (phone ? " phone" : "");
+  fr.style.width = outer + "px"; fr.style.transform = k < 1 ? `scale(${k})` : "";
+  fr.style.marginBottom = k < 1 ? `${-(h + (phone ? 20 : 0)) * (1 - k)}px` : "";
+  fr.style.marginRight = k < 1 ? `${-outer * (1 - k)}px` : "";
+}
+addEventListener("resize", () => { clearTimeout(fit.t); fit.t = setTimeout(fit, 120); });
+FIELDS.forEach(k => $(k).addEventListener("input", schedule));
+document.querySelectorAll("input[name=mode]").forEach(r => r.addEventListener("change", () => { S.mode = r.value; render(); }));
+function setView(v) { S.view = v; $("vPhone").setAttribute("aria-pressed", v === "phone"); $("vDesk").setAttribute("aria-pressed", v !== "phone"); fit(); }
+$("vPhone").addEventListener("click", () => setView("phone"));
+$("vDesk").addEventListener("click", () => setView("desk"));
+$("introReset").addEventListener("click", () => { $("intro").value = TEXT.intro; render(); });
+
+// ---------- uploads: everything stays in this browser ----------
+function hookDrop(drop, input, take) {
+  $(drop).addEventListener("click", () => $(input).click());
+  $(drop).addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); $(input).click(); } });
+  ["dragover", "dragenter"].forEach(t => $(drop).addEventListener(t, e => e.preventDefault()));
+  $(drop).addEventListener("drop", e => { e.preventDefault(); const f = e.dataTransfer.files[0]; if (f) take(f); });
+  $(input).addEventListener("change", e => { const f = e.target.files[0]; if (f) take(f); e.target.value = ""; });
+}
+async function fileToImg(file) {
+  let src;
+  if (/svg/i.test(file.type) || /\.svg$/i.test(file.name)) {
+    const doc = new DOMParser().parseFromString(await file.text(), "image/svg+xml"), svg = doc.documentElement;
+    if (svg.nodeName.toLowerCase() !== "svg") throw new Error("not svg");
+    let w = parseFloat(svg.getAttribute("width")), h = parseFloat(svg.getAttribute("height"));
+    const vb = (svg.getAttribute("viewBox") || "").split(/[\s,]+/).map(Number);
+    if (!(w > 0 && h > 0) || /%/.test(svg.getAttribute("width") || "")) { if (vb.length === 4 && vb[2] > 0) { w = vb[2]; h = vb[3]; } else { w = 300; h = 150; } }
+    const k = 1200 / Math.max(w, h); svg.setAttribute("width", w * k); svg.setAttribute("height", h * k);
+    if (!svg.getAttribute("viewBox")) svg.setAttribute("viewBox", `0 0 ${w} ${h}`);
+    src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(new XMLSerializer().serializeToString(svg));
+  } else src = await readURL(file);
+  return loadImg(src);
+}
+// crop to the slot's shape (centre) and make it email-sized JPEG
+function cropJpeg(im, W, H, q = .82) {
+  const cv = document.createElement("canvas"); cv.width = W; cv.height = H;
+  const x = cv.getContext("2d"), k = Math.max(W / im.width, H / im.height), w = im.width * k, h = im.height * k;
+  x.fillStyle = "#fff"; x.fillRect(0, 0, W, H); x.imageSmoothingQuality = "high";
+  x.drawImage(im, (W - w) / 2, (H - h) / 2, w, h); return cv.toDataURL("image/jpeg", q);
+}
+function trim(cv) {
+  const x = cv.getContext("2d"), { width: W, height: H } = cv, d = x.getImageData(0, 0, W, H).data;
+  const at = (i, j) => (j * W + i) * 4, transparent = d[3] < 20;
+  const empty = p => transparent ? d[p + 3] < 20 : (d[p + 3] < 20 || (d[p] > 244 && d[p + 1] > 244 && d[p + 2] > 244));
+  let t = 0, b = H - 1, l = 0, r = W - 1;
+  const rowEmpty = j => { for (let i = 0; i < W; i++) if (!empty(at(i, j))) return false; return true; };
+  const colEmpty = i => { for (let j = t; j <= b; j++) if (!empty(at(i, j))) return false; return true; };
+  while (t < b && rowEmpty(t)) t++; while (b > t && rowEmpty(b)) b--; while (l < r && colEmpty(l)) l++; while (r > l && colEmpty(r)) r--;
+  if (r - l < 4 || b - t < 4) return cv;
+  const o = document.createElement("canvas"); o.width = r - l + 1; o.height = b - t + 1;
+  const ox = o.getContext("2d"); if (!transparent) { ox.fillStyle = "#fff"; ox.fillRect(0, 0, o.width, o.height); }
+  ox.drawImage(cv, l, t, o.width, o.height, 0, 0, o.width, o.height); return o;
+}
+const UP = '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8c97ad" stroke-width="2" stroke-linecap="round"><path d="M12 16V4M7 9l5-5 5 5M4 20h16"/></svg>';
+async function takeLogo(file) {
+  try {
+    const im = await fileToImg(file), k0 = Math.min(1, 1200 / Math.max(im.width, im.height)), cv = document.createElement("canvas");
+    cv.width = Math.max(1, Math.round(im.width * k0)); cv.height = Math.max(1, Math.round(im.height * k0));
+    cv.getContext("2d").drawImage(im, 0, 0, cv.width, cv.height);
+    const t = trim(cv), k = Math.min(1, 220 / t.width, 104 / t.height), o = document.createElement("canvas");
+    o.width = Math.max(1, Math.round(t.width * k)); o.height = Math.max(1, Math.round(t.height * k));
+    const ox = o.getContext("2d"); ox.imageSmoothingQuality = "high"; ox.drawImage(t, 0, 0, o.width, o.height);
+    S.img.logo = o.toDataURL("image/png"); S.logo = { w: o.width, h: o.height };
+    $("logoPv").innerHTML = ""; const p = new Image(); p.src = S.img.logo; p.alt = ""; $("logoPv").appendChild(p);
+    $("logoText").innerHTML = "<b></b><br>Tap to change"; $("logoText").querySelector("b").textContent = file.name; $("logoAct").hidden = false;
+    render();
+  } catch (e) { $("logoText").innerHTML = "<b>That file didn’t open.</b><br>Try a PNG or JPG."; }
+}
+hookDrop("logoDrop", "logoFile", takeLogo);
+$("logoRm").addEventListener("click", () => { S.img.logo = null; S.logo = null; $("logoPv").innerHTML = UP; $("logoAct").hidden = true;
+  $("logoText").innerHTML = "<b>Upload your logo</b><br>Sits next to the Mayanot logo. A transparent PNG looks best."; render(); });
+const SLOT = { hero: [1200, 700, "heroText"], p1: [400, 400], p2: [400, 400], p3: [400, 400] };
+for (const k of Object.keys(SLOT)) {
+  const [W, H, txt] = SLOT[k];
+  hookDrop(k + "Drop", k + "File", async file => {
+    try { const im = await fileToImg(file); S.img[k] = cropJpeg(im, W, H, k === "hero" ? .8 : .82); S.user[k] = 1;
+      $(k + "Pv").src = S.img[k]; $(k + "Act").hidden = false;
+      if (txt) { $(txt).innerHTML = "<b></b><br>Tap to change"; $(txt).querySelector("b").textContent = file.name; }
+      render();
+    } catch (e) { status("That photo didn’t open. Try a JPG or PNG.", "err"); }
+  });
+  $(k + "Rm").addEventListener("click", () => { S.img[k] = ASSETS.img[k]; delete S.user[k]; $(k + "Pv").src = S.img[k]; $(k + "Act").hidden = true;
+    if (txt) $(txt).innerHTML = "<b>Use your own photo</b><br>Or keep ours. Cropped to a wide shape."; render(); });
+}
+
+// ---------- outputs ----------
+function slug() {
+  const d = data(), s = (d.house.trim() || d.campus.trim() || "my-campus").normalize("NFKD").replace(/[^\w\s-]/g, "").trim().replace(/[\s_]+/g, "-").replace(/-+/g, "-").slice(0, 40);
+  return s || "my-campus";
+}
+function save(blob, name) {
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = name;
+  document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 4000);
+}
+function needLink() { if (linkOk()) return false; status("Add your trip sign-up link first: it’s the one thing the email needs.", "err"); $("link").focus(); return true; }
+
+$("copy").addEventListener("click", async () => {
+  if (needLink()) return;
+  const d = data(), html = buildEmail(d, S.mode, { fragment: true }), text = plainEmail(d);
+  let done = false;
+  try {
+    if (navigator.clipboard && window.ClipboardItem) {
+      await navigator.clipboard.write([new ClipboardItem({ "text/html": new Blob([html], { type: "text/html" }), "text/plain": new Blob([text], { type: "text/plain" }) })]);
+      done = true;
+    }
+  } catch (e) { done = false; }
+  if (!done) { // older way: select a rendered copy and copy it
+    const box = $("copyBox"); box.innerHTML = html;
+    const r = document.createRange(); r.selectNodeContents(box); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r);
+    try { done = document.execCommand("copy"); } catch (e) { done = false; }
+    sel.removeAllRanges(); setTimeout(() => box.innerHTML = "", 1000);
+  }
+  status(done ? "Copied! Now open Gmail, click Compose and paste (Ctrl+V, or Cmd+V on a Mac)." : "This browser didn’t let the page copy. Click into the preview, select all (Ctrl+A, or Cmd+A on a Mac), copy, and paste into Gmail.", done ? "ok" : "err");
+});
+$("copySubj").addEventListener("click", async () => {
+  try { await navigator.clipboard.writeText(TEXT.subject); status("Subject copied.", "ok"); }
+  catch (e) { const r = document.createRange(); r.selectNodeContents($("subject")); const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+    const ok = document.execCommand("copy"); s.removeAllRanges(); status(ok ? "Subject copied." : "Select the subject and copy it.", ok ? "ok" : "err"); }
+});
+
+// Download HTML for Mailchimp, Constant Contact, or Outlook / Apple Mail. Our photos and logos are hosted (absolute links);
+// a Shliach's own uploads can't be: for Outlook / Apple Mail they're embedded, for Mailchimp / Constant Contact
+// (which take only hosted pictures) the download is a .zip of the email and their pictures, side by side at its root (Mailchimp's Import ZIP shape).
+const NAMES = { logo: "my-logo", hero: "my-big-photo", p1: "my-photo-1", p2: "my-photo-2", p3: "my-photo-3" };
+const FOR = { mc: "Mailchimp", cc: "Constant-Contact", mail: "email" };
+const ownKeys = d => Object.keys(NAMES).filter(k => d.img[k] && /^data:/.test(d.img[k]));
+function updateOwn() {
+  const own = ownKeys(data()), n = $("ownNote");
+  n.hidden = !own.length;
+  n.textContent = own.length ? `Your own ${own.includes("logo") ? (own.length > 1 ? "logo and photos" : "logo") : "photos"}: Gmail and Outlook / Apple Mail carry them as they are; for Mailchimp or Constant Contact, upload them to its image library (that download comes as a .zip with them).` : "";
+}
+$("dl").addEventListener("click", () => {
+  if (needLink()) return;
+  const d = data(), t = $("dlFor").value, base = `${slug()}-Birthright-Summer-2027-${FOR[t]}`;
+  if (t === "mail") {
+    save(new Blob([buildEmail(d, S.mode)], { type: "text/html;charset=utf-8" }), base + ".html");
+    return status("Downloaded. Open it in your browser, select all, copy, and paste into a new message in Outlook or Apple Mail.", "ok");
+  }
+  const own = ownKeys(d), img = { ...d.img }, files = [], enc = new TextEncoder();
+  for (const k of own) { const n = `${NAMES[k]}.${extOf(d.img[k])}`; img[k] = n; files.push([n, bytes(d.img[k])]); }
+  const html = t === "mc"
+    ? buildEmail({ ...d, img }, S.mode, { preheader: "*|MC_PREVIEW_TEXT|*",
+        unsub: `Don’t want these emails? <a href="*|UNSUB|*" style="color:#8a93a6;text-decoration:underline;">Unsubscribe</a>` })
+    : buildEmail({ ...d, img }, S.mode, { bodyStart: "\n[[trackingImage]]" });
+  if (!own.length) {
+    save(new Blob([html], { type: "text/html;charset=utf-8" }), base + ".html");
+    return status(t === "mc" ? "Downloaded. In Mailchimp: Create email › Use HTML to code my own › Paste in Code, then paste the file’s code (open it in Notepad or TextEdit, copy all)."
+      : "Downloaded. In Constant Contact: create an email with the Custom code option, delete the sample code, and paste the file’s code (open it in Notepad or TextEdit, copy all).", "ok");
+  }
+  const z = zip([["email.html", enc.encode(html)], ...files]);
+  save(z, base + ".zip");
+  if (t === "mc") {
+    const big = z.size > 1000000;
+    status(big ? "Downloaded, but it’s over Mailchimp’s 1 MB limit for imports: use smaller photos and download again."
+      : "Downloaded a .zip with your pictures. In Mailchimp: Campaigns › Email templates › Code your own › Import ZIP, and choose this file (don’t unzip it). Mailchimp uploads your pictures for you.", big ? "err" : "ok");
+  } else status("Downloaded a .zip. Unzip it, upload your pictures (" + files.map(f => f[0]).join(", ") + ") to Constant Contact’s Library, paste email.html’s code into a Custom code email, and swap each of those file names for its Library link.", "ok");
+});
+
+// zip, stored (images are already compressed)
+const CRC = (() => { const t = new Uint32Array(256); for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+const crc32 = u => { let c = 0xFFFFFFFF; for (let i = 0; i < u.length; i++) c = CRC[(c ^ u[i]) & 255] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; };
+function zip(files) {
+  const enc = new TextEncoder(), out = [], cen = []; let off = 0;
+  const hdr = n => new DataView(new ArrayBuffer(n));
+  for (const [name, data] of files) {
+    const nm = enc.encode(name), crc = crc32(data), h = hdr(30);
+    h.setUint32(0, 0x04034b50, true); h.setUint16(4, 20, true); h.setUint16(6, 0x0800, true); h.setUint16(12, 0x5D6B, true);
+    h.setUint32(14, crc, true); h.setUint32(18, data.length, true); h.setUint32(22, data.length, true); h.setUint16(26, nm.length, true);
+    out.push(h.buffer, nm, data);
+    const c = hdr(46); c.setUint32(0, 0x02014b50, true); c.setUint16(4, 20, true); c.setUint16(6, 20, true); c.setUint16(8, 0x0800, true); c.setUint16(14, 0x5D6B, true);
+    c.setUint32(16, crc, true); c.setUint32(20, data.length, true); c.setUint32(24, data.length, true); c.setUint16(28, nm.length, true); c.setUint32(42, off, true);
+    cen.push(c.buffer, nm); off += 30 + nm.length + data.length;
+  }
+  const cs = cen.reduce((s, x) => s + x.byteLength, 0), e = hdr(22);
+  e.setUint32(0, 0x06054b50, true); e.setUint16(8, files.length, true); e.setUint16(10, files.length, true); e.setUint32(12, cs, true); e.setUint32(16, off, true);
+  return new Blob([...out, ...cen, e.buffer], { type: "application/zip" });
+}
+
+// ---------- start ----------
+$("greeting").value = TEXT.greeting; $("intro").value = TEXT.intro; $("signoff").value = TEXT.signoff;
+$("subject").textContent = TEXT.subject;
+["hero", "p1", "p2", "p3"].forEach(k => $(k + "Pv").src = S.img[k]);
+render();
+
+</script>
+</body></html>
